@@ -1,0 +1,15 @@
+<p>
+ {{ title }}
+</p>
+ <ul *ngFor="let course of courses">
+   <li>{{ course }}</li>
+ </ul>  
+
+ <div>
+   <tr>
+     <td [colSpan]="colSpan">blbla</td>
+   </tr>
+ </div>
+
+<button class="btn btn-primary" [style.backgroundColor]="isActive ? 'blue' : 'red'" (click)="onSave($event)">Save</button>    
+<input type="text"[(ngModel)]="email" (keyUp.enter)="onKeyUp()">

@@ -1,0 +1,13 @@
+.not-highlighted {
+    color: #ccc;
+    cursor:pointer;
+}
+
+.glyphico-heart {
+    cursor:point
+}
+
+.highlighted {
+    color:deeppink;
+    
+}
